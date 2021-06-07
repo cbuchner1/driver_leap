@@ -1,0 +1,12 @@
+{
+    "thumbnail" : "thumbnail_leap.png",
+    "components": {
+        "body": {
+            "filename": "leap_motion_1_0.obj",
+            "component_local" : {
+                "origin": [0.0, 0.0, 0.0],
+                "rotate_xyz" : [0.0,0.0,0.0]
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+<settings>
+  <!--General settings-->
+  <setting name="emulatedController" value="index"/> <!--"vive","index" or "oculus"-->
+  <setting name="rightHand" value="true"/> <!--Enable right hand controller-->
+  <setting name="leftHand" value="true"/> <!--Enable left hand controller-->
+  <setting name="orientation" value="hmd"/> <!--"hmd" or "desktop"-->
+  <setting name="trackingLevel" value="partial"/> <!--"partial" or "full", only Index controller-->
+  <!--Offsets settings-->
+  <setting name="desktopOffset" value="0.0 -0.5 -0.5"/> <!--Global offset in desktop orientation, XYZ-->
+  <setting name="leftHandOffset" value="0.0 0.0 -0.1"/> <!--Local offset, XYZ-->
+  <setting name="leftHandOffsetRotation" value="0.0 0.0 0.0 1.0"/> <!--Local offset, XYZW-->
+  <setting name="rightHandOffset" value="0.0 0.0 -0.1"/> <!--Local offset, XYZ-->
+  <setting name="rightHandOffsetRotation" value="0.0 0.0 0.0 1.0"/> <!--Local offset, XYZW-->
+  <!--Arbitrary settings-->
+  <setting name="handsReset" value="false"/> <!--Mark controllers as out of range if hands aren't detected-->
+  <setting name="interpolation" value="false"/> <!--Enable Leap Motion internal interpolation, can be unstable on low-end machines-->
+  <setting name="useVelocity" value="false"/> <!--Send velocity from Leap Motion, visible position twitching can occur-->
+</settings>
